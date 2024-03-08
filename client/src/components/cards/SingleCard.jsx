@@ -55,7 +55,7 @@ const SingleCard = ({ singleData, type }) => {
         <div className="relative h-full w-full">
           {/* Only for singleData */}
           {/* Favorite & share button */}
-          {type === "recipe" && (
+          {/* {type === "recipe" && (
             <div className="absolute top-2 right-0 flex flex-col gap-2 p-2 bg-light rounded-l-lg z-10">
               {user?.favorites?.some((ele) => ele === singleData._id) ? (
                 <AiFillHeart
@@ -74,7 +74,7 @@ const SingleCard = ({ singleData, type }) => {
                 }`}
               />
             </div>
-          )}
+          )} */}
           {/* Card image */}
           <img
             src={singleData?.image}
@@ -96,13 +96,13 @@ const SingleCard = ({ singleData, type }) => {
             {singleData?.description.substring(0, 100)}...
           </p>
           {/* Card rating */}
-          {type === "recipe" && (
+          {/* {type === "recipe" && (
             <Rating
               value={averageRating}
               readOnly
               size={"medium"}
             />
-          )}
+          )} */}
         </div>
       </div>
       {/* Read more link */}

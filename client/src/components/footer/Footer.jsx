@@ -78,7 +78,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} CulinaryHub. All rights reserved
         </p>
         {/* Footer social links */}
-        <ul className="flex justify-center gap-6 text-xl">
+        {/* <ul className="flex justify-center gap-6 text-xl">
           <motion.li
             className="border border-primary p-1 rounded-full hover:text-gray-500"
             whileHover={{ y: -4 }}
@@ -112,7 +112,7 @@ const Footer = () => {
               <AiFillLinkedin />
             </a>
           </motion.li>
-        </ul>
+        </ul> */}
       </div>
     </footer>
   );

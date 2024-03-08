@@ -7,8 +7,8 @@ const RootLayout = () => {
     <>
       <Header />
       <Outlet />
-      <BackToTop />
-      {/* <Footer /> */}
+      {/* <BackToTop /> */}
+      <Footer />
     </>
   );
 };
